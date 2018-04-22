@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Full Stack Web Developer</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid col-md-10 col-lg-10">
+            <a class="navbar-brand" href="index.html"><img class="logo-img" src="assets/images/Logo_Portfolio.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid col-md-10 col-lg-10">
+        <div class="wrapper">
+
+            <div class="row">
+                <div class="col-md-8 col-lg-8 mainSect" style="background-color:white;">
+
+                    <div class="pTitle">
+                        <h1>Contact Me</h1>
+                        <hr>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+
+                            <form action="/page.php" id="contactForm">
+                                <div class="form-group">
+                                    <label class="contactForm">Name:</label>
+                                    <br>
+                                    <input type="text" id="fname" name="fname" class="fname fstyle" placeholder="Type your name">
+                                    <br> Email:
+
+                                    <input type="text" id="femail" name="femail" class="femail fstyle" placeholder="Type your Email address">
+                                    <br> Message:
+
+                                    <textarea id="mymessage" name="mymessage" class="fmessage fstyle" placeholder="Type your message" rows="5" cols="18"></textarea>
+                                    <br>
+
+                                    <button type="submit" id="fsubmit" name="fsubmit" class="fbutton  btn btn-default">Submit</button>
+                                    <br>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8">
+                            <div class="page title">
+
+                                <div class="ContactSocial wrap">
+                                    <h3>Connect with Me</h3>
+                                    <hr>
+                                    <a href="https://github.com/dinaizida" target="_blank"><i style="font-size:44px" class="fa">&#xf092;</i></a>
+
+                                    <a href="https://www.linkedin.com/in/DinaRudenko/" target="_blank"><i style="font-size:44px" class="fa">&#xf08c;</i></a>
+                                    <a href="https://stackoverflow.com/users/6179580/dina" target="_blank"><i style="font-size:44px" class="fa">&#xf16c;</i></a>
+                                    <a href="https://www.facebook.com/businessonwww/" target="_blank"><i style="font-size:44px" class="fa">&#xf082;</i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footernav" class="navbar navbar-default fixed-bottom">
+        <div class="container col-md-10 col-lg-10">
+            <div class="copy">
+                Copyright &copy; <span id="copyright_year"></span> Designed by Dina Rudenko at <a target="_blank" href="http://businessonwww.com/">BusinessOnWWW.com</a> | Austin Texas Web Design | All Rights Reserved.
+            </div>
+            <script>
+                function init() {
+                    getCopyrightYear();
+                }
+
+                function getCopyrightYear() {
+                    var d = new Date();
+                    var thisYear = d.getFullYear();
+                    document.getElementById("copyright_year").innerHTML = thisYear;
+                }
+                window.onload = init;
+            </script>
+
+            <div class="social">
+                <a href="https://github.com/dinaizida" target="_blank"><i style="font-size:16px" class="fa">&#xf092;</i></a>
+                <a href="https://www.linkedin.com/in/DinaRudenko/" target="_blank"><i style="font-size:16px" class="fa">&#xf08c;</i></a>
+                <a href="https://stackoverflow.com/users/6179580/dina" target="_blank"><i style="font-size:16px" class="fa">&#xf16c;</i></a>
+                <a href="https://www.facebook.com/businessonwww/" target="_blank"><i style="font-size:16px" class="fa">&#xf082;</i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
