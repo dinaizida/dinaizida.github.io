@@ -208,6 +208,14 @@ textarea {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+.project-overlay{
+    color: #e8a734;
+    font-size: 1.3em;
+    text-align: center;
+    /* position: absolute;
+    top: 15%;
+    left: 30%; */
+}
 
 .PortfolioContainer:hover .overlay {
     opacity: 0.8;
