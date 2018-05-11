@@ -197,7 +197,9 @@ textarea {
     background-color: #4873bd;
     border-radius: 4%;
 }
-
+#git{
+    margin-top: 20px;
+}
 .text-overlay {
     color: white;
     font-size: 1.5em;
@@ -212,9 +214,7 @@ textarea {
     color: #e8a734;
     font-size: 1.3em;
     text-align: center;
-    /* position: absolute;
-    top: 15%;
-    left: 30%; */
+    
 }
 
 .PortfolioContainer:hover .overlay {
