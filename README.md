@@ -1,3 +1,7 @@
+
+https://dinaizida.github.io/index.html
+
+
 I’m an energetic and self-motivated full-stack web developer and web site design enthusiast.
 
 I am a detail-oriented, deadline-conscious problem solver with previous more than 10 years’ software development experience in building interactive web applications from mockup to deployment. As a web developer, I have built dynamic web applications utilizing HTML5, CSS3, JavaScript, jQuery, AJAX, responsive design, JSON, RESTful APIs, Bootstrap, Handlebars.js, Firebase, cookies, local storage, Node.js, Express.js, React.js, MongoDB, MySQL, Sequelize, MVC, Heroku, and Github. 
